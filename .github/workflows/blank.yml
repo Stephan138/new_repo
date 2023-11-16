@@ -3,14 +3,12 @@ on: push
 
 jobs:
 
-  print_hello:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print hello
-        run: echo "Hello world!"
-
   checkout_repo:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
         uses: actions/checkout@v3
+      - name: inst
+        run: npm ci
+    
+      
