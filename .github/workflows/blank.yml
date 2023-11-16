@@ -1,4 +1,4 @@
-name: print hello and checkout repo workflow
+name: checkout
 on: push
 
 jobs:
