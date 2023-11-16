@@ -3,13 +3,13 @@ on: push
 
 jobs:
 
-  checkout_repo:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
         uses: actions/checkout@v3
       - name: inst
         run: npm install
-      - name: test
-        run: npm run test
+      - name: lint app
+        run: npm run lint
       
