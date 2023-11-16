@@ -1,0 +1,40 @@
+.Form {
+  max-width: 455px;
+  padding: 32px 80px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.Form.Compact {
+  padding: 0;
+  background-color: transparent;
+  max-width: 100%;
+}
+
+.Title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+  color: #3d3c3b;
+  line-height: 40px;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  font-size: 32px;
+  color: #3d3c3b;
+}

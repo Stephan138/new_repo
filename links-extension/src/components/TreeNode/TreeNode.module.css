@@ -1,0 +1,25 @@
+.TreeNode {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+.Info {
+  display: flex;
+  padding: 16px 18px;
+  border-radius: 16px;
+  align-items: center;
+  gap: 16px;
+  font-size: 20px;
+  color: #3d3c3b;
+  cursor: pointer;
+}
+
+.Nodes {
+  padding-left: 32px;
+}
+
+.Info.Selected {
+  background-color: #1f83f436;
+  cursor: default;
+}

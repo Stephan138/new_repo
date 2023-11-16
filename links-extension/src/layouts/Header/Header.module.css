@@ -1,0 +1,21 @@
+.Header {
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f83f4;
+  padding: 0 48px;
+}
+
+.Header.Centered {
+  justify-content: center;
+}
+
+.Actions {
+  position: relative;
+  display: flex;
+}
+
+.ProfilePopup {
+  right: 0;
+}

@@ -1,0 +1,26 @@
+.Button {
+  border: 2px solid #1f83f4;
+  border-radius: 12px;
+  font-size: 30px;
+  background-color: #ffffff;
+  padding: 10px;
+  outline: none;
+  width: 350px;
+  color: #1f83f4;
+  cursor: pointer;
+}
+
+.Button.Primary {
+  background-color: #1f83f4;
+  border: none;
+  color: #ffffff;
+}
+
+.Button.Primary.Disabled {
+  background-color: #e0efff;
+  color: #1f83f4;
+}
+
+.Button.Primary:active {
+  box-shadow: 0px 4px 4px 0px #00000040 inset;
+}

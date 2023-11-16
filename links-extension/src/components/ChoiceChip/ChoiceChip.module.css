@@ -1,0 +1,25 @@
+.ChoiceChip {
+  font-size: 32px;
+  font-weight: normal;
+  color: #c7c7c7;
+  cursor: pointer;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.ChoiceChip:hover {
+  color: #a8a8a8;
+}
+
+.ChoiceChip.Current {
+  color: #000000;
+  cursor: pointer;
+  padding: 16px;
+  margin: -16px;
+  border-radius: 64px;
+}
+
+.ChoiceChip.Current:hover {
+  background-color: #f2f2f2;
+}

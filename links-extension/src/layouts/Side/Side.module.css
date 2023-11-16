@@ -1,0 +1,16 @@
+.Side {
+  width: 350px;
+  background-color: #ffffff;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.Side:first-child {
+  border-radius: 0 12px 12px 0;
+}
+
+.Side:last-child {
+  border-radius: 12px 0 0 12px;
+}
